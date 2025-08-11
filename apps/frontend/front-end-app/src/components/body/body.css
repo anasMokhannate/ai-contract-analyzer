@@ -1,0 +1,20 @@
+.body{
+    display:flex;
+    height: 100vh; /* full viewport height */
+    flex-direction: row; /* horizontal layout */
+}
+
+.fileUploader {
+    flex: 1; /* take up equal space */
+    padding: 20px;
+  }
+  
+  .separator {
+    width: 1px;
+    background-color: #ccc; /* light gray line */
+  }
+  
+  .results {
+    flex: 2;
+    padding: 20px;
+  }
