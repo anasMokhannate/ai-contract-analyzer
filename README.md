@@ -19,9 +19,9 @@
 ## Technology Stack
 
 - **Frontend:** React.js for the user interface
-- **Backend:** Python with Flask or Django REST API
-- **AI/NLP:** Hugging Face transformers, SpaCy, or custom-trained models
-- **Data Storage:** PostgreSQL or any relational database for contract metadata
+- **Backend:** Python with Flask framework
+- **AI/NLP:** Ollama 
+- **Data Storage:** PostgreSQL database for contract metadata
 - **Deployment:** Docker for containerized setup
 
 ---
@@ -31,7 +31,7 @@
 - Clone the repository:
 
   ```bash
-  git clone https://github.com/yourusername/ai-contract-analyzer.git
+  git clone https://github.com/anasMokhannate/ai-contract-analyzer.git
   cd ai-contract-analyzer
   ```
 
@@ -39,7 +39,7 @@
 
   ```bash
   python -m venv venv
-  source venv/bin/activate    # On Windows use `venv\Scripts\activate`
+  # On Windows use `venv\Scripts\activate`
   pip install -r requirements.txt
   ```
 
